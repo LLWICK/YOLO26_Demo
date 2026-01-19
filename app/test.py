@@ -1,4 +1,5 @@
 from ultralytics import YOLO
+from ultralytics import YOLOE
 from multiprocessing import freeze_support
 
 def main():
@@ -15,4 +16,4 @@ def main():
 
 if __name__ == "__main__":
     freeze_support()   # Safe on Windows
-    main()
+    main() 
